@@ -1,0 +1,228 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size:14px;
+    font-family:"微软雅黑" ;
+    height: 2000px;
+}
+.float_l{
+    float:left;
+}
+.float_r{
+    float:right;
+}
+.cleat_float{
+    clear:both;
+}
+.over_float{
+    overflow:hidden;
+}
+li{
+    list-style:none;
+}
+.header{
+    width:100%;
+    height: 75px;
+    background-color:black;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 999999999999999999999;
+}
+.inner_c{
+    width:1000px;
+    margin: 0 auto;
+}
+.header h1{
+    margin-right:50px ;
+}
+.header h1 a{
+    background-image:url(../VScode/images/logo.png\(2\).png);
+    display:block;
+    width:150px;
+    height:75px;
+    text-indent:-9999em;
+}
+.header ul li{
+    float:left;
+    height: 75px;
+    line-height: 75px;
+    width:100px;
+    text-align:center;
+    border-right:1px solid #292929;
+}
+.header ul li a:link,.header ul li a:visited{
+    text-decoration:none;
+    color:#878787;
+    size:50px;
+}
+.header ul li a:hover{
+    color:#e2e4ed;
+}
+.header ul li.current{
+    border-left:1px solid #292929;
+}
+.header ul li a{
+    display:block;
+    width:100px;
+    height:75px;
+}
+.header ul li.current a{
+    color:#e2e4ed;
+    background-color:#292929;
+}
+.header .zxgk{
+    margin-left:48px;
+    padding-top:18px;
+}
+.header .zxgk a{
+    display:block ;
+    width:100px;
+    text-align:center;
+    height:34px;
+    line-height:34px;
+    background:green;
+    border-radius:5px;
+}
+.header .zxgk a:link,.header .zxgk a:visited{
+    text-decoration:none;
+    color:#fff;
+}
+.header .zxgk a:hover{
+    background:#28a764;
+}
+.banner{
+    width:100%;
+    height:500px;
+    background-image:url(../VScode/images/naruto\(1\).jpg);
+    background-position:center;
+}
+.bpt{
+    height:500px;
+    border:1px solid #dbe1e7;
+    padding-top:50px;
+}
+.bpt ul li{
+    width:218px;
+    height:200px;
+    background-color: #00f;
+    float:left ;
+    margin-right:43px;
+}
+.bpt ul li.last{
+    width:217px;
+    margin-right:0;
+}
+.bpt ul li img{
+    width:100%;
+    height:200px;
+}
+.bpt ul li h4{
+    line-height:30px;
+}
+.bpt ul li h4,.bpt ul li h5{
+    text-align:center;
+    font-weight:normal;
+}
+.bpt ul li h5 a:link,.bpt ul li h5 a:visited{
+    text-decoration:none;
+    color:#28a764;
+}
+.bpt ul li h5 a{
+    background-image:url(../VScode/images/bofang\(1\).png);
+    background-repeat:no-repeat;
+    background-position:right center;
+    padding-right: 15px;
+}
+.renjieInfo{
+    height: 500px;
+    padding-top:53px;
+    width: 1000px;
+}
+.renjieInfo .huoyingmen{
+    width: 500px;
+    height: 160px;
+    background-image:url(../VScode/images/huoyingmen\(1\).png);
+    padding-top:119px;
+    position: relative;
+
+
+}
+.renjieInfo .huoyingmen ul{
+    padding:0px 20px;
+    border:1px solid #000;
+}   
+.renjieInfo .huoyingmen ul li{
+    height: 22px;
+    line-height: 22px;
+    border-bottom: 1px solid #dbe1e7;
+}
+.renjieInfo .huoyingmen .more a{
+    display: block;
+    width: 66px;
+    height: 28px;
+    border: 1px solid #33b972;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:#33b972;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.renjieInfo .huoyingmen ul li a:link,.renjieInfo .huoyingmen ul li a:visited{
+    text-decoration: none;
+    color:#ffaa00;
+}
+.renjieInfo .huoyingmen ul li a:hover{
+    color:#33b972;
+}
+.renjieInfo .huoyingmen ul li span{
+    color:#afcce4;
+    font-size: 12px;
+}
+.renjieInfo .huoyingJobs{
+    width: 500px;
+    height: 225px;
+    background-image: url(../VScode/images/kakaxi4.0\(1\).jpg);
+    padding-top: 119px;
+}
+.renjieInfo .huoyingJobs ul{
+    padding:0px 20px;
+    border: 1px solid #000;
+}
+.renjieInfo .huoyingJobs ul li{
+    height: 22px;
+    line-height: 22px;
+    border-bottom: 1px solid #dbe1e7;
+}
+.renjieInfo .huoyingJobs ul li a:link,.renjieInfo .huoyingJobs ul li a:visited{
+    text-decoration: none;
+    color:#30EBFF;
+}
+.renjieInfo .huoyingJobs ul li a:hover{
+    color:#fd76ff;
+}
+.renjieInfo .huoyingJobs ul li span{
+    color:#afcce4;
+    font-size: 12px;
+}
+body{font-size: 14px;
+    font-family: 微软雅黑;
+    height: 2000px;
+}
+.top{
+    position:fixed;
+    right: 10px;
+    bottom: 40px;
+    background-color: #ffaa00;
+    line-height: 20px;
+    width: 40px;
+    height: 50px;
+}
+.top a{
+    display: block;
+}
